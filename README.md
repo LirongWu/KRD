@@ -64,6 +64,16 @@ python main.py --dataset citeseer --teacher GCN ----exp_setting 0
 
 
 
-## License
+## Citation
 
-Knowledge-inspired Reliable Distillation (RKD) is released under the MIT license.
+If you find this project useful for your research, please use the following BibTeX entry.
+
+```
+@inproceedings{wu2023quantifying,
+  title={Quantifying the Knowledge in GNNs for Reliable Distillation into MLPs},
+  author={Wu, Lirong and Lin, Haitao and Huang, Yufei and and Li, Stan Z},
+  booktitle={International Conference on Machine Learning},
+  year={2023},
+  organization={PMLR}
+}
+```
