@@ -1,0 +1,1220 @@
+{
+    "cora": {
+        "tran" : {
+            "GCN": {
+                "dataset": "cora",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 1024,
+                "dropout_t": 0.5,
+                "dropout_s": 0.3,
+
+                "lamb": 0.5,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 0,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "cora",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 1024,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.3,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 0,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "cora",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 1024,
+                "dropout_t": 0.5,
+                "dropout_s": 0.4,
+
+                "lamb": 0.2,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 0,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "cora",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 256,
+                "dropout_t": 0.4,
+                "dropout_s": 0.6,
+
+                "lamb": 0.0,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 0,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "cora",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 512,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.0,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 0,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "cora",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 512,
+                "dropout_t": 0.4,
+                "dropout_s": 0.6,
+
+                "lamb": 0.2,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 0,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        }
+    },
+    "citeseer": {
+        "tran" : {
+            "GCN": {
+                "dataset": "citeseer",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 256,
+                "dropout_t": 0.4,
+                "dropout_s": 0.6,
+
+                "lamb": 0.0,
+                "tau": 0.9,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 1,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "citeseer",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 1,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "citeseer",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 512,
+                "dropout_t": 0.6,
+                "dropout_s": 0.3,
+
+                "lamb": 0.0,
+                "tau": 0.9,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 1,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "citeseer",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 128,
+                "dropout_t": 0.5,
+                "dropout_s": 0.3,
+
+                "lamb": 0.0,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 1,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "citeseer",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 512,
+                "dropout_t": 0.3,
+                "dropout_s": 0.3,
+
+                "lamb": 0.0,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 1,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "citeseer",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.3,
+                "dropout_s": 0.3,
+
+                "lamb": 0.0,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 1,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        }
+    },
+    "pubmed": {
+        "tran" : {
+            "GCN": {
+                "dataset": "pubmed",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 256,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 2,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "pubmed",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 256,
+                "dropout_t": 0.4,
+                "dropout_s": 0.3,
+
+                "lamb": 0.0,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 2,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "pubmed",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 256,
+                "dropout_t": 0.3,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 2,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "pubmed",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 64,
+                "dropout_t": 0.6,
+                "dropout_s": 0.5,
+
+                "lamb": 0.0,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 2,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "pubmed",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 256,
+                "dropout_t": 0.6,
+                "dropout_s": 0.3,
+
+                "lamb": 0.1,
+                "tau": 0.9,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 2,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "pubmed",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 256,
+                "dropout_t": 0.6,
+                "dropout_s": 0.5,
+
+                "lamb": 0.0,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 2,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        }
+    },
+    "coauthor-cs": {
+        "tran" : {
+            "GCN": {
+                "dataset": "coauthor-cs",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 256,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.3,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 3,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "coauthor-cs",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 128,
+                "dropout_t": 0.6,
+                "dropout_s": 0.6,
+
+                "lamb": 0.4,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 3,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "coauthor-cs",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 128,
+                "dropout_t": 0.6,
+                "dropout_s": 0.5,
+
+                "lamb": 0.2,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 3,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "coauthor-cs",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 128,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.3,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 3,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "coauthor-cs",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 256,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.4,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 3,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "coauthor-cs",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.3,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 3,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        }
+    },
+    "coauthor-phy": {
+        "tran" : {
+            "GCN": {
+                "dataset": "coauthor-phy",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.4,
+                "dropout_s": 0.3,
+
+                "lamb": 0.1,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 4,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "coauthor-phy",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.3,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 0.9,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 4,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "coauthor-phy",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 256,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 4,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "coauthor-phy",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.0,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 4,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "coauthor-phy",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.5,
+                "dropout_s": 0.4,
+
+                "lamb": 0.1,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 4,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "coauthor-phy",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 256,
+                "dropout_t": 0.3,
+                "dropout_s": 0.6,
+
+                "lamb": 0.1,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 4,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        }
+    },
+    "amazon-photo": {
+        "tran" : {
+            "GCN": {
+                "dataset": "amazon-photo",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.4,
+                "dropout_s": 0.4,
+
+                "lamb": 0.4,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 5,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "amazon-photo",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 512,
+                "dropout_t": 0.3,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 5,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "amazon-photo",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 512,
+                "dropout_t": 0.5,
+                "dropout_s": 0.3,
+
+                "lamb": 0.3,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 5,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "amazon-photo",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.2,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.001,
+                "weight_decay": 0.0005,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 5,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "SAGE": {
+                "dataset": "amazon-photo",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 512,
+                "dropout_t": 0.4,
+                "dropout_s": 0.5,
+
+                "lamb": 0.4,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 5,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            },
+            "GAT": {
+                "dataset": "amazon-photo",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 2,
+                "hidden_dim": 1024,
+                "dropout_t": 0.5,
+                "dropout_s": 0.6,
+
+                "lamb": 0.1,
+                "tau": 1.2,
+                "init_power": 1.0,
+                "momentum": 0.99,
+                "bins_num": 50,
+    
+                "learning_rate": 0.01,
+                "weight_decay": 0.001,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 5,
+                "ablation_mode": 0,
+                "norm_type": "none"
+            }
+        }
+    },
+    "ogbn-arxiv": {
+        "tran" : {
+            "GCN": {
+                "dataset": "ogbn-arxiv",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.3,
+                "dropout_s": 0.1,
+
+                "lamb": 0.1,
+                "tau": 1.1,
+                "init_power": 1.0,
+                "momentum": 0.9,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 7,
+                "ablation_mode": 0,
+                "norm_type": "batch"
+            },
+            "SAGE": {
+                "dataset": "ogbn-arxiv",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.5,
+                "dropout_s": 0.1,
+
+                "lamb": 0.2,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.9,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 7,
+                "ablation_mode": 0,
+                "norm_type": "batch"
+            },
+            "GAT": {
+                "dataset": "ogbn-arxiv",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "tran",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.5,
+                "dropout_s": 0.2,
+
+                "lamb": 0.2,
+                "tau": 0.8,
+                "init_power": 1.0,
+                "momentum": 0.9,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 7,
+                "ablation_mode": 0,
+                "norm_type": "batch"
+            }
+        },
+        "ind" : {
+            "GCN": {
+                "dataset": "ogbn-arxiv",
+                "teacher": "GCN",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.1,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.9,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 7,
+                "ablation_mode": 0,
+                "norm_type": "batch"
+            },
+            "SAGE": {
+                "dataset": "ogbn-arxiv",
+                "teacher": "SAGE",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.9,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 7,
+                "ablation_mode": 0,
+                "norm_type": "batch"
+            },
+            "GAT": {
+                "dataset": "ogbn-arxiv",
+                "teacher": "GAT",
+                "student": "MLP",
+                "exp_setting": "ind",
+                "split_rate": 0.1,
+
+                "num_layers": 3,
+                "hidden_dim": 2048,
+                "dropout_t": 0.6,
+                "dropout_s": 0.4,
+
+                "lamb": 0.0,
+                "tau": 1.0,
+                "init_power": 1.0,
+                "momentum": 0.9,
+                "bins_num": 50,
+    
+                "learning_rate": 0.005,
+                "weight_decay": 0.0,
+                "max_epoch": 500,
+
+                "seed": 42,
+                "save_mode": 1,
+                "data_mode": 7,
+                "ablation_mode": 0,
+                "norm_type": "batch"
+            }
+        }
+    }
+}
