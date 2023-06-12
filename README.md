@@ -1,6 +1,6 @@
-#  Knowledge-inspired Reliable Distillation (RKD)
+#  Knowledge-inspired Reliable Distillation (KRD)
 
-This is a PyTorch implementation of Knowledge-inspired Reliable Distillation (RKD), and the code includes the following modules:
+This is a PyTorch implementation of Knowledge-inspired Reliable Distillation (KRD), and the code includes the following modules:
 
 * Dataset Loader (Cora, Citeseer, Pubmed, Amazon-Photo, Coauthor-CS, Coauthor-Phy, and ogbn-arxiv)
 
