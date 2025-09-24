@@ -59,7 +59,7 @@ python train.py --dataset data_name --teacher gnn_name --exp_setting setting_nam
 where (1) *data_name* is one of the seven datasets: Cora, Citeseer, Pubmed, Amazon-Photo, Coauthor-CS, Coauthor-Phy  ogbn-arxiv; (2) *gnn_name* is one of the three GNN architectures: GCN, SAGE, and GAT; (3) *setting_name* is one of the two evaluation settings: 0 (Transductive) and 1 (Inductive). Take the model in the transductive setting  (with GCN as the teacher) on the *Citeseer* dataset as an example: 
 
 ```
-python main.py --dataset citeseer --teacher GCN --exp_setting 0
+python train.py --dataset citeseer --teacher GCN --exp_setting 0
 ```
 
 
